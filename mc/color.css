@@ -1,0 +1,16 @@
+body {
+    background: #e3f2fd;
+  }
+  
+  header, footer {
+    background-color: #1976d2;
+    color: white;
+  }
+  
+  nav {
+    background: #bbdefb;
+  }
+  
+  nav a {
+    color: #0d47a1;
+  }

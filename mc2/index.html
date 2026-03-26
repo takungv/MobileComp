@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>คำนวณภาษี</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>โปรแกรมคำนวณภาษีเงินได้บุคคลธรรมดา</h2>
+
+<h3 id="datetime">กำลังโหลดเวลา...</h3>
+
+
+<label>รายได้ (บาท)</label>
+<div id="income-container">
+  <div class="income-row">
+    <input type="number" class="income">
+  </div>
+</div>
+
+<button onclick="addIncome()">+</button>
+<button onclick="removeIncome()">-</button>
+
+<br><br>
+
+<label>รายได้รวม (บาท)</label>
+<input type="text" id="total" readonly>
+
+<label>อัตราภาษี (%)</label>
+<input type="text" id="rate" readonly>
+
+<label>ภาษีที่ต้องจ่าย (บาท)</label>
+<input type="text" id="tax" readonly>
+
+
+<p id="warning"></p>
+<button onclick="toggleTheme()">🌙 / ☀️</button>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 18px;
+  }
+  
+  #warning {
+    color: red;
+  }
+  /* DARK MODE */
+body.dark {
+    background: #121212;
+    color: white;
+  }
+  
+  body.dark input {
+    background: #1e1e1e;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  body.dark button {
+    background: #333;
+    color: white;
+  }
+  
+  body.dark #warning {
+    color: #ff6b6b;
+  }
