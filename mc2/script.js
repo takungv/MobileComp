@@ -13,7 +13,11 @@ function addIncome() {
 function removeIncome() {
   const rows = document.querySelectorAll(".income-row");
   if (rows.length <= 1) return;
+
   container.removeChild(rows[rows.length - 1]);
+
+  // หลังจากลบให้คำนวณใหม่
+  calculate();
 }
 
 // คำนวณทุกครั้งที่พิมพ์

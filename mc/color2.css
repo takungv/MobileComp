@@ -1,18 +1,18 @@
 body {
-    background: #ffebee; /* แดงอ่อน */
+    background: #ffebee;
   }
   
   header, footer {
-    background-color: #d32f2f; /* แดงเข้ม */
+    background-color: #d32f2f;
     color: white;
   }
   
   nav {
-    background: #ffcdd2; /* แดงกลาง */
+    background: #ffcdd2; 
   }
   
   nav a {
-    color: #b71c1c;
+    color: black;
   }
   
   nav a:hover {

@@ -11,12 +11,11 @@
     font-family: 'Sarabun', sans-serif;
     display: flex;
     flex-direction: column;
-    background: #e3f2fd; /* เปลี่ยนแค่สี */
+    background: #e3f2fd;
   }
   
-  /* header */
   header {
-    background-color: #1976d2; /* เปลี่ยนสี */
+    background-color: #1976d2;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -33,7 +32,7 @@
   nav {
     flex: 1;
     padding: 20px;
-    background: #bbdefb; /* เปลี่ยนสี */
+    background: #bbdefb;
   }
   
   nav ul {
@@ -42,7 +41,7 @@
   
   nav a {
     text-decoration: none;
-    color: #0d47a1; /* เปลี่ยนสี */
+    color: #0d47a1;
     display: block;
     margin: 10px 0;
     font-size: 18px;
@@ -51,13 +50,13 @@
   /* content */
   article {
     flex: 3;
-    background-color: #ffffff; /* คงไว้หรือเปลี่ยนเล็กน้อย */
+    background-color: #ffffff;
     padding: 20px;
   }
   
   /* footer */
   footer {
-    background-color: #1976d2; /* เปลี่ยนสี */
+    background-color: #1976d2;
     text-align: center;
     padding: 10px;
     color: white;
