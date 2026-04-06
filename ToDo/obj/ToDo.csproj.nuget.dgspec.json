@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DECAY\\ToDo\\ToDo.csproj": {}
+    "/Users/gorrarara/Desktop/mcc/ToDo/ToDo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DECAY\\ToDo\\ToDo.csproj": {
+    "/Users/gorrarara/Desktop/mcc/ToDo/ToDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DECAY\\ToDo\\ToDo.csproj",
+        "projectUniqueName": "/Users/gorrarara/Desktop/mcc/ToDo/ToDo.csproj",
         "projectName": "ToDo",
-        "projectPath": "C:\\Users\\DECAY\\ToDo\\ToDo.csproj",
-        "packagesPath": "C:\\Users\\DECAY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DECAY\\ToDo\\obj\\",
+        "projectPath": "/Users/gorrarara/Desktop/mcc/ToDo/ToDo.csproj",
+        "packagesPath": "/Users/gorrarara/.nuget/packages/",
+        "outputPath": "/Users/gorrarara/Desktop/mcc/ToDo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DECAY\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/gorrarara/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -59,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@6/6.0.136_1/libexec/sdk/6.0.136/RuntimeIdentifierGraph.json"
         }
       }
     }
